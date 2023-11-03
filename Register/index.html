@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <script src="Register.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>ЦДС ПАРТНЕР</h1>
+            <div class="input-control">
+                <label for="phone">ЛОГИН</label>
+                <input id="phone" name="phone" type="tel" placeholder="+7__ __-__-__" >
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">ПАРОЛЬ</label>
+                <input id="password"name="password" placeholder="Введите значение" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit" class="enter">Войти</button>
+            <button type="submit" class="register" formaction="register.html">РЕГИСТРАЦИЯ АГЕНСТВА</button>
+            <button type="submit" class="forbid" formaction="forgotpass.html">ЗАБЫЛИ ПАРОЛЬ?</button>
+        </form>
+    </div>
+    <footer>
+      <div class="info">
+         <p>Есть вопросы? Напишите нам по адресу <br> emis@cds.spb.ru</p>
+      </div>
+    </footer>
+</body>
+</html>
